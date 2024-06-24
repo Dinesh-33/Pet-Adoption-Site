@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoption Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="apply.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Adoption Application</h1>
+    </header>
+    <main>
+        <section id="application-form">
+            <h2>Apply to Adopt a Pet</h2>
+            <form id="adoption-form">
+                <label for="pet-id">Pet ID:</label>
+                <input type="text" id="pet-id" name="pet-id" required readonly><br>
+
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="phone">Your Phone:</label>
+                <input type="tel" id="phone" name="phone" required><br>
+
+                <label for="address">Your Address:</label>
+                <textarea id="address" name="address" required></textarea><br>
+
+                <button type="submit">Submit Application</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

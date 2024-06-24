@@ -1,0 +1,140 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #87CEEB, #4682B4);
+    background-size: 100% 300px;
+    background-position: 0% 100%;
+    animation: moveGradient 3s ease-in-out infinite;
+  }
+  
+  header {
+    background-color: #4682B4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  #login-Section {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4682B4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3498DB;
+  }
+
+header {
+    background-color: #000000;
+    color: gold;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    padding: 1em;
+}
+
+#pet-listing {
+    margin-top: 20px;
+}
+
+#pets-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: space-around;
+}
+
+.pet-card {
+    border: 7px solid #ddd;
+    padding: 1em;
+    border-radius: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+.pet-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+
+.pet-card h3 {
+    margin: 0.5em 0;
+}
+
+.pet-card p {
+    margin: 0.5em 0;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input, button {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
